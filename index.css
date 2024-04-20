@@ -1,0 +1,38 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; 
+    margin: 0; */
+  }
+.cal{
+  border:2px solid rgb(216, 195, 195);
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px 20px;
+}
+#display{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 280px;
+  height: 40px;
+  gap: 5px;
+  border-color: beige;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+#allbtn{
+  margin-bottom: 5px;
+}
+#cbtn{
+  color: slateblue;
+  width: 80px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
